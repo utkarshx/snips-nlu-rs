@@ -18,10 +18,10 @@ members = [
 ]
 
 [dependencies]
-crfsuite = { git = "https://github.com/snipsco/crfsuite-rs", branch = "master" }
-snips-nlu-ontology = { git = "https://github.com/snipsco/snips-nlu-ontology", tag = "0.67.1" }
-snips-nlu-utils = { git = "https://github.com/snipsco/snips-nlu-utils", tag = "0.9.1" }
-snips-nlu-parsers = { git = "https://github.com/snipsco/snips-nlu-parsers", tag = "0.4.3" }
+crfsuite = { git = "https://github.com/utkarshx/crfsuite-rs", branch = "master" }
+snips-nlu-ontology = { git = "https://github.com/utkarshx/snips-nlu-ontology", tag = "0.67.1" }
+snips-nlu-utils = { git = "https://github.com/utkarshx/snips-nlu-utils", tag = "0.9.1" }
+snips-nlu-parsers = { git = "https://github.com/utkarshx/snips-nlu-parsers", tag = "0.4.3" }
 failure = "0.1"
 base64 = "0.10"
 itertools = { version = "0.8", default-features = false }
@@ -36,7 +36,7 @@ csv = "1.0"
 zip = { version = "0.5", default-features = false, features = ["deflate"] }
 
 [dev-dependencies]
-bencher = { git = "https://github.com/snipsco/bencher", rev = "63910ace" }
+bencher = { git = "https://github.com/utkarshx/bencher", rev = "63910ace" }
 clap = "2.32"
 dinghy-test = "0.4"
 env_logger = "0.6"
